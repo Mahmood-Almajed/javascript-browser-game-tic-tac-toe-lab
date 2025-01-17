@@ -122,7 +122,7 @@ const winningCombos = [
            const second = tied[1];
            const third = tied[2];
    
-           if(board[first]===turn && board[second]===turn && board[third]===turn &&board[first]!==''&& board[second]!=='' && board){
+           if(board[first]===turn && board[second]===turn && board[third]===turn &&board[first]!==''&& board[second]!=='' && board[third]!==''){
                winner=true;
                return;   
            }
