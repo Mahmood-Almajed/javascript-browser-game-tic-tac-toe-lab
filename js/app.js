@@ -30,10 +30,10 @@ const winningCombos = [
           const square = squareEles[index];
           square.textContent=value;   
           if(value==='X'){
-              square.style.color='blue';
+              square.style.color='red';
           }
           else if(value==='O'){
-              square.style.color='red';
+              square.style.color='green';
           }
           else {
               square.style.color='none';
